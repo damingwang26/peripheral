@@ -1,0 +1,30 @@
+/* main.css */
+@import "tailwindcss";
+
+* {
+  /* color set */
+  --primary-color: #81D8D0;
+  --primary-color-dark: #0e605a;
+  --dark-gray: #1a1a1a;
+  --light-gray: #c7c7c7;
+  --bkg-white-t: rgba(255, 255, 255, 0.136);
+  --bk-color-dark: #264846;
+  font-family: "Noto Serif SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, var(--dark-gray), var(--bk-color-dark));
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+.flex {
+  justify-content: center;
+  align-items: center;
+}
